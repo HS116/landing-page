@@ -29,6 +29,7 @@ a {
 
 .intro {
     background-color: #3d516e;
+    padding:30px;
     display:flex;
 }
 
@@ -37,7 +38,6 @@ a {
     flex-direction:column;
     max-width: 600px;
     gap:20px;
-    padding:30px;
     color:#E5E7EB;
 }
 
@@ -64,7 +64,52 @@ a {
 
 .projects {
     background-color: azure;
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.projects-heading {
+    font-size: 36px;
+    margin: 20px;
+}
+
+.projects-info {
+    display:flex;
+    /* TODO: proper spacing all the way along the axis*/
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap:80px;
+
+}
+
+.project-item {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.project-image {
+    border-color:#1F2937;
+    border-radius: 10px;
+    border-width:3px ;
+    border-style: solid;
+
+    flex:auto;
+
+    width:250px;
+    height:auto;
+}
+
+.project-image img{
+    width:50px;
+    height:auto;
+}
+
+
+
 
 
 
