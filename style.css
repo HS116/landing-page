@@ -27,3 +27,8 @@ a {
     color: #F9FAF8;
 }
 
+.intro {
+    background-color: #3d516e;
+    display:flex;
+}
+
