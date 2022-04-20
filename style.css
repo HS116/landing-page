@@ -9,4 +9,21 @@ body {
     padding:10px;
     font-size: 24px;
     font-weight:900;
+    display:flex;
 }
+
+.right-links {
+    margin-left:auto;
+    display: flex;
+    gap:25px;
+    font-weight: 300;
+
+    text-decoration: none;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
