@@ -24,7 +24,7 @@ body {
 a {
     list-style-type: none;
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 
 .intro {
@@ -35,15 +35,37 @@ a {
 .intro-text{
     display:flex;
     flex-direction:column;
+    max-width: 600px;
+    gap:20px;
+    padding:30px;
+    color:#E5E7EB;
 }
 
 .big-hi {
     font-size: 48px;
+    color: #F9FAF8;
 }
 
 .bio {
     font-size:36px;
 }
+
+.CV {
+    width:80px;
+    padding:10px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 20px;
+}
+
+.intro img {
+    margin-left:auto;
+}
+
+.projects {
+    background-color: azure;
+}
+
 
 
 
