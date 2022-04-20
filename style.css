@@ -32,3 +32,8 @@ a {
     display:flex;
 }
 
+.intro-text{
+    display:flex;
+    flex-direction:column;
+}
+
