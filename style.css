@@ -110,6 +110,7 @@ button {
 
 .project-item a{
     color:black;
+    font-size: 24px;
 }
 
 .project-item img, .experience-item img {
