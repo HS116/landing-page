@@ -2,7 +2,6 @@ body {
     display:flex;
     flex-direction: column;
     margin:0;
-
 }
 
 .header {
@@ -18,7 +17,6 @@ body {
     display: flex;
     gap:25px;
     font-weight: 300;
-
     text-decoration: none;
 }
 
@@ -35,9 +33,7 @@ a {
     background-color: #3d516e;
     padding:30px;
     display:flex;
-
     flex: 1 1 auto;
-
 }
 
 .intro-text{
@@ -50,7 +46,6 @@ a {
 
 .big-hi {
     font-size: 48px;
-    color: #F9FAF8;
 }
 
 #waving-emoji {
@@ -64,7 +59,6 @@ a {
 
 .CV {
     width:80px;
-    padding:10px;
     background-color: #3882F6;
     color:#E5E7EB;
     font-size: 20px;
@@ -73,6 +67,7 @@ a {
 button {
     /*makes the button rounded*/
     border-radius: 15px;
+    padding: 12px;
 }
 
 .intro img {
@@ -85,74 +80,59 @@ button {
     display:flex;
     flex-direction: column;
     align-items: center;
-
     flex: 1 1 auto;
-
 }
 
-.projects-main-heading {
+.projects-main-heading, .langs-heading, .experience-main-heading {
     font-size: 36px;
     margin: 24px;
 }
 
-.projects-info {
+.projects-info, .langs-info, .experience-info {
     display:flex;
-    /* TODO: proper spacing all the way along the axis*/
     justify-content:space-between;
     flex-wrap: wrap;
     gap:80px;
-
 }
 
-.project-item {
-    display:flex;
+.project-item, .experience-item {
+    display: flex;
+    gap:20px;
     flex-direction: column;
     align-items: center;
-    gap:20px;
-    font-size: 24px;
-
+    justify-content: center;
     flex: 1 1 auto;
+}
+
+.project-item-heading, .experience-item-heading{
+    font-size: 28px;
 }
 
 .project-item a{
     color:black;
 }
 
-.project-image {
+.project-item img, .experience-item img {
     border-color:#1F2937;
-    border-radius: 10px;
-    border-width:3px ;
+    border-radius: 20px;
+    border-width:5px ;
     border-style: solid;
-
-    flex:auto;
-
-    height:300px;
-    width:auto;
-
-    display: flex;
+    flex: 1 1 auto;
 }
 
-.project-image img{
-    width:50px;
+.project-item img {
+    height: auto;
+    width:300px;
+}
+
+.experience-item img {
     height:auto;
-}
-
-
-.langs-info {
-    display:flex;
-    gap:36px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.langs-heading {
-    font-size:36px;
-    margin:48px;
+    width:400px;
 }
 
 .langs-info img {
-    max-width: 150px;
     height:auto;
+    width: 130px;
 }
 
 .experience {
@@ -160,43 +140,9 @@ button {
     display: flex;
     flex-direction: column;
     padding:30px;
-    gap:20px;
     align-items: center;
     color:#E5E7EB;
-
     flex: 1 1 auto;
-
-}
-
-.experience-main-heading {
-    font-size: 36px;
-}
-
-.experience-info {
-    display:flex;
-    gap:36px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.experience-item {
-    display: flex;
-    gap:18px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.experience-item-heading {
-    font-size: 28px;
-}
-
-.experience-item img {
-    max-width: 450px;
-    border-radius: 20px;
-    border-color: #1F2937;
-    border-width: 5px;
-    border-style: solid;
 }
 
 .experience-item-date {
@@ -208,9 +154,7 @@ button {
     display:flex;
     padding:10px;
     flex-wrap: wrap;
-
     flex: 1 1 auto;
-
 }
 
 .contact-left-message {
@@ -236,13 +180,11 @@ button {
     padding:36px;
     border-radius: 8px;
     border-style: solid;
-    border-width: 8px;
+    border-width: 10px;
     border-color: #3882F6;
     width:500px;
     height:500px;
-
     flex:1;
-
     display:flex;
     flex-direction: column;
 }
@@ -252,7 +194,6 @@ button {
     font-size: 36px;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 10px;
-
 }
 
 .inner-contact-form {
@@ -262,7 +203,6 @@ button {
     flex-direction: column;
     justify-content: space-around;
     gap:60px;
-
     flex:1;
 }
 
@@ -282,33 +222,16 @@ button {
 
 .inner-contact-form button{
     max-width: 100px;
-    padding:12px;
     background-color: green;
     color:white
 }
 
-
 .footer {
     margin-top:auto;
-    flex:1;
     background-color: #1F2937;
     text-align: center;
     font-size: 18px;
     color:#F9FAF8;
-
     flex: 1 1 auto;
-
     padding:15px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
