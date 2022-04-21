@@ -172,6 +172,7 @@ button {
     gap:18px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .experience-item-heading {
@@ -185,6 +186,67 @@ button {
     border-width: 5px;
     border-style: solid;
 }
+
+.experience-item-date {
+    font-size: 18px;
+}
+
+.contact {
+    background-color: aquamarine;
+    display:flex;
+    padding:10px;
+    flex-wrap: wrap;
+}
+
+.contact-left-message {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    max-width: 400px;
+    margin:30px;
+}
+
+.get-in-touch {
+    font-size: 64px;
+    font-weight:400;
+}
+
+.contact-short-sentence {
+    font-size: 20px;
+}
+
+.contact-form-box {
+    margin-left:auto;
+    background-color: aliceblue;
+    padding:36px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #3882F6;
+    width:500px;
+    height:500px;
+
+    flex:1;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-form-title {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+
+}
+
+.inner-contact-form {
+    background-color: #3882F6;
+    flex:1;
+}
+
+
+
 
 
 
