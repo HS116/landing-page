@@ -46,6 +46,11 @@ a {
     color: #F9FAF8;
 }
 
+#waving-emoji {
+    width:50px;
+    height:auto;
+}
+
 .bio {
     font-size:36px;
 }
@@ -56,6 +61,11 @@ a {
     background-color: #3882F6;
     color:#E5E7EB;
     font-size: 20px;
+}
+
+button {
+    /*makes the button rounded*/
+    border-radius: 15px;
 }
 
 .intro img {
@@ -99,8 +109,10 @@ a {
 
     flex:auto;
 
-    width:250px;
-    height:auto;
+    height:300px;
+    width:auto;
+
+    display: flex;
 }
 
 .project-image img{
