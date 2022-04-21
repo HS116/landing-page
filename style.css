@@ -82,7 +82,7 @@ button {
 
 .projects-heading {
     font-size: 36px;
-    margin: 20px;
+    margin: 24px;
 }
 
 .projects-info {
@@ -120,6 +120,24 @@ button {
     height:auto;
 }
 
+
+
+.langs-info {
+    display:flex;
+    gap:36px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.langs-heading {
+    font-size:36px;
+    margin:48px;
+}
+
+.langs-info img {
+    max-width: 150px;
+    height:auto;
+}
 
 
 
